@@ -1,0 +1,75 @@
+/* Retirar todas as margens de todos os elementos */
+*{
+    margin:0; /*Margem externa*/
+    padding:0; /*Margem interna*/
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2e3743;
+    background-image: url('../img/Tela1.png');
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    margin: 15px;
+    background-size: contain;
+    background-position: 0 -110px;
+    background-repeat: no-repeat;
+    height: 844px;
+    width: 390px;
+
+}
+
+h1{
+    font-size: 12pt;
+}
+
+h2{
+    margin-top: 80px;
+    font-size: 35pt;
+}
+
+/* Vamos fixar o rodapé na parte inferior da tela. Utilizaremos a 
+posição fixa com margem de base(bottom) próxima de zero(0)*/
+#rodape{
+    position: fixed;
+    bottom: 15px;
+    display: flex;
+}
+
+#avancar{
+    display: flex;
+    background-color: #4f4e58;
+    width: 280px;
+    border-radius: 50px;
+    align-items: center;/*alinhamento na vertical(centro)*/
+    border-radius: 50px;
+    justify-content: space-between;/*Distribui o conteúdo dentro da área*/
+    margin-left: 10px;
+    padding-right: 10px;
+    border:2px solid #4f4e58;
+    font-family:'Arial';
+
+}
+
+#voltar{
+    border: 1px solid #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#avancar #play{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    color:#4f4e58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #302f2f;
+}
+
